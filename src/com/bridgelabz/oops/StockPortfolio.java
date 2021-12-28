@@ -22,7 +22,7 @@ public class StockPortfolio {
 	System.out.println("How many data you want to enter");
 	noOfData = sc.nextInt();
 	noOfData1=noOfData;
-	while(noOfData1 > 0) {
+	for(int m = 0;noOfData1 > 0;m++) {
 		System.out.println("Enter stock name:");
 		shareName  = sc.next();
 		System.out.println("Enter number of shares:");
